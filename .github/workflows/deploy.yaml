@@ -1,8 +1,7 @@
 name: Deploy
 on:
-  push:
-    branches:
-      - main
+  watch:
+    types: started
 jobs:
   deploy:
     runs-on: ubuntu-latest
