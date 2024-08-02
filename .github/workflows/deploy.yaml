@@ -1,7 +1,6 @@
 name: Deploy
 on:
-  watch:
-    types: started
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
